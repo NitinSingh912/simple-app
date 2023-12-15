@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Container{
+   height: 100vh;
+   width: 100vw;
+   background-color: #EAC4CE;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contentBox{
+    background-color: #EBD7DF;
+    height: 40%;
+    width: 30%;
+    border-radius: 8px;
+  
+}
+.AnotherDiv{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    color: #005004;
+    text-shadow: 6px 6px 10px #005004;
+}
+h1,h3{
+  text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+button{
+    height: 2rem;
+    border-radius: 6px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
